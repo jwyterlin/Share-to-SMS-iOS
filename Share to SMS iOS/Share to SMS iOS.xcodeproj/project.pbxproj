@@ -15,6 +15,7 @@
 		7BCCC2911BE923C70000EDE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCC2901BE923C70000EDE9 /* AppDelegate.m */; };
 		7BCCC2931BE923D80000EDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCCC2921BE923D80000EDE9 /* Assets.xcassets */; };
 		7BCCC2961BE923F00000EDE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCC2951BE923F00000EDE9 /* ViewController.m */; };
+		7BCCC2991BE9249B0000EDE9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BCCC2981BE9249B0000EDE9 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7BCCC2921BE923D80000EDE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Assets/Assets.xcassets; sourceTree = "<group>"; };
 		7BCCC2941BE923F00000EDE9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controller/ViewController.h; sourceTree = "<group>"; };
 		7BCCC2951BE923F00000EDE9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controller/ViewController.m; sourceTree = "<group>"; };
+		7BCCC2981BE9249B0000EDE9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BCCC2991BE9249B0000EDE9 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +84,11 @@
 		7BCCC24B1BE9232A0000EDE9 = {
 			isa = PBXGroup;
 			children = (
+				7BCCC2971BE9247C0000EDE9 /* Frameworks */,
+				7BCCC2551BE9232A0000EDE9 /* Products */,
 				7BCCC2561BE9232A0000EDE9 /* Share to SMS iOS */,
 				7BCCC2701BE9232A0000EDE9 /* Share to SMS iOSTests */,
 				7BCCC27B1BE9232A0000EDE9 /* Share to SMS iOSUITests */,
-				7BCCC2551BE9232A0000EDE9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +182,15 @@
 				7BCCC2921BE923D80000EDE9 /* Assets.xcassets */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		7BCCC2971BE9247C0000EDE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BCCC2981BE9249B0000EDE9 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			path = "Share to SMS iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
