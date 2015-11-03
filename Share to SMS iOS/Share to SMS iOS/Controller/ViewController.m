@@ -74,7 +74,7 @@
         
     }
     
-    NSArray *recipents = @[@"32988290686"];
+    NSArray *recipents = @[@"78912345678"];
     
     MFMessageComposeViewController *messageController = [[MFMessageComposeViewController alloc] init];
     messageController.messageComposeDelegate = self;
