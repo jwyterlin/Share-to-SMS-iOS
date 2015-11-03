@@ -108,11 +108,11 @@
 		7BCCC2561BE9232A0000EDE9 /* Share to SMS iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7BCCC29A1BE92C530000EDE9 /* Util */,
 				7BCCC28A1BE923320000EDE9 /* AppDelegate */,
 				7BCCC28E1BE9235C0000EDE9 /* Assets */,
 				7BCCC28B1BE9233C0000EDE9 /* Controller */,
 				7BCCC2571BE9232A0000EDE9 /* Supporting Files */,
+				7BCCC29A1BE92C530000EDE9 /* Util */,
 				7BCCC28C1BE923470000EDE9 /* View */,
 			);
 			path = "Share to SMS iOS";
